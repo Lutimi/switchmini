@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.4/dist/flowbite.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="flex h-screen items-center justify-center">
+        <div class="  max-w-lg  w-full mx-auto rounded-lg  p-5 text-gray-700 overflow-hidden overflow-y-auto 
+        lg:overflow-y-hidden oc-h-screen">
+            <div
+                class="bg-white shadow-lg px-4 border-gray-100 grid grid-cols mx-auto max-w-xl  w-full max-h-[70vh] overflow-y-auto  ">
+                <div class="md:gridsm:mt-0  md:gap-3">
+                    <div class=" md:mt-0 md:col-span-2">
+                        <form action="" method="POST">
+                            <div class=" overflow-y-auto ">
+                                <div class="  lg:px-4 py-5  sm:p-6">
+                                    <div class="grid grid-cols-6 gap-3">
+                                        <div class="col-span-6 lgs:col-span-3">
+                                            <label for="Codigos"
+                                                class="block text-sm font-medium text-gray-700">Códigos</label>
+                                            <input required type="text" name="Codigos" id="Codigos"
+                                                placeholder="Codigos" autocomplete="off"
+                                                class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                        </div>
+                                        <div class="col-span-6 lgs:col-span-3">
+                                            <label for="Cantidad"
+                                                class="block text-sm font-medium text-gray-700">Cantidad de
+                                                meses</label>
+                                            <input required type="text" name="Cantidad" id="Cantidad"
+                                                placeholder="Cantidad" autocomplete="off"
+                                                class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                        </div>
+                                        <div class="col-span-6 lgs:col-span-3">
+                                            <label for="Porcentaje"
+                                                class="block text-sm font-medium text-gray-700">Porcentaje de
+                                                descuentos</label>
+                                            <input required type="text" name="Porcentaje" id="Porcentaje"
+                                                placeholder="Porcentaje" autocomplete="off"
+                                                class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                        </div>
+                                        <div class="col-span-6 ">
+                                            <label for="total" class="block text-sm font-medium text-gray-700">Total de
+                                                códigos</label>
+                                            <input required type="text" name="total" id="total"
+                                                placeholder="Total de códigos" autocomplete="off"
+                                                class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" py-3  text-right sm:px-6 md:px-4">
+                                    <div class=" py-3  flex flex-col md:flex-row w-full text-right lg:space-x-2 ">
+
+                                        <button type="submit"
+                                            class=" my-2 inline-flex w-full justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white
+                                bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                                            Guardar
+                                        </button>
+                                        <button type="submit" class=" my-2 inline-flex w-full justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white
+                                bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                                            Cancelar
+                                        </button>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
